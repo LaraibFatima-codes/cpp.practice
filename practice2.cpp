@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main (){
+    float num1 , num2;
+
+    cout<< "\nEnter first number:";
+    cin>> num1;
+    cout<< "\nEnter second number:";
+    cin>> num2;
+    cout<<"\nSum:"<<num1+num2;
+    cout<<"\nDifference:"<<num1-num2;
+    cout<<"\nProduct:"<<num1*num2;
+    cout<<"\nDivision:"<<num1/num2;
+    return 0;
+}
